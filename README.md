@@ -17,7 +17,6 @@
 
 **Medibuddy** is an innovative IoT-based Smart Medical Dispenser and Reminder System designed to automate medication management for elderly and chronically ill patients. The system ensures timely medication intake through automated dispensing, real-time alerts, and cloud-based monitoring.
 
-![System Architecture](./assets/system-architecture.png)
 
 ### 🎯 Key Features
 
@@ -30,7 +29,7 @@
 
 ## 🏗️ System Architecture
 
-![Hardware Setup](./assets/hardware-setup.jpg)
+![Hardware Setup](./assets/hardware-setup.png)
 
 ### Hardware Components
 - **Raspberry Pi 4**: Central controller and processing unit
@@ -96,7 +95,6 @@ MQTT_PASSWORD=your_mqtt_password
 
 ## 🔧 Hardware Wiring
 
-![Wiring Diagram](./assets/wiring-diagram.png)
 
 ### Pin Connections (Raspberry Pi 4)
 
@@ -122,7 +120,6 @@ MQTT_PASSWORD=your_mqtt_password
 
 ### Hardware Operation
 
-![Device in Action](./assets/device-operation.gif)
 
 1. System checks for scheduled medications using RTC
 2. At scheduled time, buzzer sounds and OLED displays alert
